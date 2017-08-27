@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+
+    <!-- Settings, should always be in the overflow -->
+
+    <item android:id="@+id/calendar_everything"
+        android:title="1 year"
+        android:icon="@drawable/carbon"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/calendar_day"
+        android:title="1 year"
+        android:icon="@drawable/calendar_everything"
+        app:showAsAction="always"/>
+
+
+
+    <item android:id="@+id/calendar_year"
+        android:title="1 year"
+        android:icon="@drawable/calendar_year"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/calendar_28"
+        android:icon="@drawable/calendar_28"
+        android:title="28 days"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="@string/display_by_mode"
+        android:id="@+id/mode_overflow"
+        />
+    <item
+        android:title="@string/dsiplay_by_route"
+        android:id="@+id/route_overflow"
+        />
+    <item
+        android:title="@string/human_related_unit"
+        android:id="@+id/human_related_unit"
+        />
+    <item
+        android:title="@string/regular_unit"
+        android:id="@+id/regular_unit"
+        />
+
+    <item android:id="@+id/backButton"
+        android:title="@string/back"
+        android:icon="@mipmap/action_back"
+        app:showAsAction ="ifRoom"/>
+
+</menu>

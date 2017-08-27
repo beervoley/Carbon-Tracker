@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context="com.vsevolod.carbontracker.UI.AddBusActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_bus_spinner"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentStart="true"
+        >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="@string/bus_name"
+                android:id="@+id/add_busName_txt"
+                android:textStyle="bold"
+                />
+
+
+            <Spinner
+                android:id="@+id/add_busName_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+            </Spinner>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/add_bus_startingStop_txt"
+                android:text="@string/starting_stop"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <Spinner
+                android:id="@+id/add_bus_startingStop_Spinner"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent">
+
+            </Spinner>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/destination_stop"
+                android:id="@+id/add_bus_destinationStop_txt"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/add_bus_destinationStop_spinner"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent">
+
+            </Spinner>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date3"
+                android:id="@+id/a"
+                android:textSize="16dp"
+                android:textStyle="bold"  />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_bus_date"/>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bus_info"
+        android:id="@+id/add_bus_title"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/add_bus_spinner" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@mipmap/okay_save"
+        android:id="@+id/add_bus_okBtn"
+        android:layout_marginLeft="185dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@mipmap/cancel_cancel"
+        android:id="@+id/add_bus_cancelBtn"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/add_bus_spinner" />
+
+</RelativeLayout>

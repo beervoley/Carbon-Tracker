@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vsevolod.carbontracker">
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/carbon_calculator"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <service
+            android:name=".Model.RSSPullService"
+            android:exported="false"/>
+        <activity
+            android:name=".UI.AddCarActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".UI.MainMenu"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".UI.CarList"/>
+
+        <activity
+            android:name=".UI.DisplayFootPrint"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".UI.MainMenu"/>
+
+        <activity
+            android:name=".UI.WelcomeScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".UI.RouteListActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".UI.AddRouteActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".UI.AboutScreen"
+            android:parentActivityName=".UI.MainMenu"/>
+
+        <activity android:name=".UI.JourneyList"
+            android:parentActivityName=".UI.MainMenu" />
+
+        <activity android:name=".UI.DisplayBillsActivity"
+            android:parentActivityName=".UI.MainMenu"/>
+
+        <activity android:name=".UI.AddBillActivity"></activity>
+
+        <activity android:name=".UI.AddBusActivity" />
+        <activity android:name=".UI.AddBikeActivity" />
+        <activity android:name=".UI.AddSkytrainActivity" />
+        <activity android:name=".UI.BikeList" />
+        <activity android:name=".UI.BusList" />
+        <activity android:name=".UI.SkytrainList"></activity>
+        <receiver android:name=".Model.NotificationReceiver"></receiver>
+
+
+
+    </application>
+</manifest>

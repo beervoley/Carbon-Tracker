@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">"Rastreador de carbono"</string>
+    <string name="ok_button">"Bien"</string>
+    <string name="cancel_button">"Cancelar"</string>
+    <string name="delete1">"BORRAR"</string>
+    <string name="nick_name">"Nombre:"</string>
+    <string name="choose_transmission">"Elija Transmisión"</string>
+    <string name="choose_engine_displacement">"Elija Desplazamiento del motor"</string>
+    <string name="choose_year">"elegir año"</string>
+    <string name="choose_model">"Elija Modelo"</string>
+    <string name="choose_make">"Elija Hacer"</string>
+    <string name="add_route">"Añadir ruta"</string>
+    <string name="select_a_route">"Seleccione una ruta:"</string>
+    <string name="route_name">"Nombre:"</string>
+    <string name="name">"Nombre"</string>
+    <string name="city_segment_km">"Segmento de la ciudad (km):"</string>
+    <string name="highway_segment_km">"Segmento de la carretera (km):"</string>
+    <string name="total_distance">"Distancia total"</string>
+    <string name="done">"hecho"</string>
+    <string name="delete">"borrar"</string>
+    <string name="main_menu">"MENÚ PRINCIPAL"</string>
+    <string name="carbon_tracker">"Rastreador de carbono"</string>
+    <string name="kat_siu">"Kat Siu"</string>
+    <string name="betty_huang">"Betty Huang"</string>
+    <string name="candice_su">"Candice Su"</string>
+    <string name="created_by">"Creado por"</string>
+    <string name="vsevolod_lliushin">"Vsevolod Iliushin"</string>
+    <string name="about_the_author">"Sobre el autor:"</string>
+    <string name="app_information">"Información de la aplicación:"</string>
+    <string name="source">"Fuente."</string>
+    <string name="https_s_media_cache_ak0_pinimg_com_564x_84_b7_fd_84b7fd33902b17b1672e849c956a431d_jpg">"https://s-media-cache-ak0.pinimg.com/564x/84/b7/fd/84b7fd33902b17b1672e849c956a431d.jpg"</string>
+    <string name="https_maxcdn_icons8_com_share_icon_transport_suv1600_png">"https://maxcdn.icons8.com/Share/icon/Transport//suv1600.png"</string>
+    <string name="http_downloadicons_net_sites_default_files_cloud_icon_62402_png">"http://downloadicons.net/sites/default/files/cloud-icon-62402.png"</string>
+    <string name="https_openclipart_org_image_2400px_svg_to_png_190314_cloud_simple_png">"https://openclipart.org/image/2400px/svg_to_png/190314/cloud-simple.png"</string>
+
+    <string name="car_name">"Nombre:"</string>
+    <string name="car_make">"Marca:"</string>
+    <string name="car_model">"Modelo: "</string>
+    <string name="car_year">"Año:"</string>
+    <string name="car_transmission">"trans."</string>
+    <string name="car_engine_displacement">"Motores:  "</string>
+    <string name="route_length">"Duración:"</string>
+    <string name="route_highway_length">"Autopista:  "</string>
+    <string name="route_city_length">"Ciudad:"</string>
+    <string name="car_info">"Información coche"</string>
+    <string name="route_info">"Información de ruta"</string>
+    <string name="co2">\"CO2\"</string>
+    <string name="add_journey">"Añadir viaje"</string>
+    <string name="display_carbon_footprint">"Mostrar la huella de carbono"</string>
+    <string name="monthly_utility">"mensual de servicios"</string>
+    <string name="transportaion_mode">"Modo transportaion"</string>
+    <string name="course_web">"Web del curso:"</string>
+    <string name="invoice_number">"{0}Número de {1}factura.{/1}{/0} {2} {/2}"</string>
+    <string name="choose_type">"Elija el tipo"</string>
+    <string name="enter_amount">"Introduzca cantidad:"</string>
+    <string name="number_of_people">"Número de Personas"</string>
+    <string name="start_date">"De"</string>
+    <string name="end_date">"A"</string>
+
+    <string name="electricity">"Electricidad"</string>
+    <string name="natural_gus">"Gas natural"</string>
+    <string name="electricity_hint">"cantidad de GWh"</string>
+    <string name="natural_gas_hint">"cantidad de GJ"</string>
+    <string name="wrong_invoice_number">"Número de factura equivocada"</string>
+    <string name="wrong_number_of_people">"Incorrecto Número de personas"</string>
+    <string name="invalid_amount">"Por favor, introduzca la cantidad válida"</string>
+    <string name="your_footprint">"su Huella"</string>
+
+    <string name="journey_list">"Lista viaje"</string>
+    <string name="main_menu2">"Menú Principal"</string>
+    <string name="journey">"Viaje"</string>
+    <string name="date">"Fecha"</string>
+    <string name="date_m_d_y">"Fecha (MDY):"</string>
+    <string name="bus_list">"Lista de autobús"</string>
+    <string name="skytrain_list">"Lista de tren aéreo"</string>
+    <string name="bike_list">"Lista moto"</string>
+    <string name="tip">"¡Consejo!"</string>
+    <string name="next_tip">"Sugerencia siguiente"</string>
+
+    <string-array name="electric_tips">
+        <item>"Apagar las luces cuando salga de la habitación para ahorrar energía."</item>
+        <item>"Hacer la eficiencia energética una consideración primordial a la hora de elegir un nuevo horno, unidad de aire acondicionado, lavavajillas, o en el refrigerador."</item>
+        <item>"Sustituir las bombillas incandescentes por fluorescentes compactas o LED queridos para ahorrar energía."</item>
+        <item>"Considerar la adición de paneles solares en el techo de su casa."</item>
+        <item>"Instalar sensores de movimiento para controlar las luces y desconectar los aparatos cuando no estén en uso."</item>
+        <item>"Usted puede ahorrar en energía eléctrica, es la ropa en agua fría."</item>
+        <item>"Cuando se cocina, utilizar el microondas cuando pueda. Se utiliza mucha menos energía que un horno eléctrico."</item>
+    </string-array>
+    <string-array name="gas_tips">
+        <item>"Aislar y sellar su hogar. Reducir corrientes de aire y las fugas de aire con masilla, aislamiento y burletes."</item>
+        <item>"No ajuste el termostato demasiado alto o bajo. Instalar un modelo programable para apagar la calefacción o el aire acondicionado cuando no estás en casa"</item>
+        <item>"Los ventiladores pueden aspirar aire caliente. Apagarlos cuando no los necesita."</item>
+        <item>"Apoyar las fuentes de energía limpia. Siempre que sea posible, abogar por alternativas limpias a los combustibles fósiles, como la energía eólica o solar."</item>
+        <item>"Considerar la sustitución de ventanas viejas con alta eficiencia ventanas de doble cristal con revestimientos de protección que reflejan el calor hacia su casa durante el invierno."</item>
+        <item>"Calentamiento o enfriamiento toda la casa puede ser costoso. Siempre que sea posible, cerrar las puertas a las zonas que no esté utilizando y solamente calentar o enfriar los cuartos donde usted pasa la mayor parte del tiempo en."</item>
+        <item>"Vestido para la temperatura. Varias capas de ropa y el uso de la lana ayuda a mantener el calor en invierno, y significa que usted puede convertir su calentador de abajo."</item>
+    </string-array>
+    <string-array name="transport_tips">
+        <item>"Cuando sea posible, caminar o andar en bicicleta con el fin de evitar las emisiones de carbono por completo."</item>
+        <item>"Compartir coche y transporte público reducir drásticamente las emisiones de CO2 mediante la difusión de ellas a lo largo de muchos pilotos."</item>
+        <item>"Considerar el cambio a un vehículo de bajo carbono. Alto kilometraje doesn / 't siempre significa bajas emisiones de CO2. Todos los vehículos tienen una calificación estimada millas por galón."</item>
+        <item>"El exceso de velocidad y aceleración innecesaria reducir el kilometraje hasta en un 33%, el gas residual y dinero, y aumentan su huella de carbono."</item>
+        <item>"Estar atrapado en el gas residuos de tráfico y crea innecesariamente CO2. Utilice sitios web y aplicaciones de tráfico e ir de una manera diferente o esperar."</item>
+        <item>"Considerar alternativas a los viajes, tales como videoconferencia y teletrabajo."</item>
+        <item>"Mantenga su vehículo bien mantenido como que reduzca al mínimo las emisiones."</item>
+    </string-array>
+    <string name="you_generate">"generas "</string>
+    <string name="kg_of_co2_from_electricity">"kg de CO2 de uso de la electricidad. "</string>
+    <string name="ke_of_co2_today_from_natural_gas_use">"kg de CO2 actual del uso de gas natural. "</string>
+    <string name="ke_of_co2_on_average_per_day_from_traveling">"kg de CO2 en promedio por día de viajar. "</string>
+    <string name="you_generate_1">"generas "</string>
+    <string name="you_generate_2">"generas "</string>
+    <string name="edit">"Editar"</string>
+    <string name="delete2">"Borrar"</string>
+    <string name="delete3">"Borrar"</string>
+    <string name="amount">"Monto"</string>
+    <string name="car_list">"Lista de carros"</string>
+    <string name="nick_name2">"Nombre:"</string>
+    <string name="car_info2">"Información coche"</string>
+    <string name="skytrain_name">"Nombre de tren aéreo:"</string>
+    <string name="skytrain_info">"Información de tren aéreo"</string>
+    <string name="destination_station">"Estación de destino:"</string>
+    <string name="starting_station">"A partir de la estación:"</string>
+    <string name="date2">"Fecha"</string>
+    <string name="ok">"De acuerdo"</string>
+    <string name="cancel">"Cancelar"</string>
+    <string name="bus_info">"bus Info"</string>
+    <string name="bus_name">"Nombre de bus:"</string>
+    <string name="destination_stop">"Detener Destino:"</string>
+    <string name="starting_stop">"A partir de parada:"</string>
+    <string name="date3">"Fecha"</string>
+    <string name="ok2">"Correcto"</string>
+    <string name="cancel2">"Cancelar"</string>
+    <string name="bike_info">"información moto"</string>
+    <string name="name_bike">"Nombre:"</string>
+    <string name="date_bike">"Fecha:"</string>
+    <string name="distance_bike">"Distancia:"</string>
+    <string name="ok_bike">"Correcto"</string>
+    <string name="car_list2">"Lista de carros"</string>
+    <string name="car_list1">"Lista de carros"</string>
+    <string name="open">"Abierto"</string>
+    <string name="close">"Cerrar"</string>
+    <string name="carbon_tracker_nava">"Rastreador de carbono"</string>
+    <string name="enter_valid_name">"Introduzca un nombre válido"</string>
+    <string name="title_main_menu">"Menú Principal"</string>
+    <string name="title_journey_list">"Lista viaje"</string>
+    <string name="title_car_list">"Lista de carros"</string>
+    <string name="title_bus_list">"Lista de autobús"</string>
+    <string name="title_bike_list">"Lista moto"</string>
+    <string name="title_route_list">"Lista de rutas"</string>
+    <string name="title_about">"Acerca de"</string>
+    <string name="title_bill">"mensual de servicios"</string>
+    <string name="add_bike">"Añadir bicicletas"</string>
+    <string name="add_bill">"Añadir Bill"</string>
+    <string name="add_bus">"Añadir autobús"</string>
+    <string name="choose_an_icon">"Elige un icono"</string>
+    <string name="choose_icon">"elegir icono"</string>
+    <string name="choose_icon_dialog">"elegir icono"</string>
+    <string name="choose_icon_spinner">"elegir icono"</string>
+    <string name="this_app_is_created_by_group_lava_in_2017_n_version_1_1">"Esta aplicación es creada por la lava grupo en 2017. \ n Versión: 1.1"</string>
+    <string name="source_link">"https://cdn4.iconfinder.com/data/icons/pie-charts/100/pie-chart-12-512.png \ n https://maxcdn.icons8.com/Share/icon/Programming//help1600. png \ n https: //cdn3.i confinder.com/data/icons/files-2/512/pie_chart_file-512.png \ n https://cdn3.iconfinder.com/data/icons/flat-icons-big -sized / 64 / coche-512.png \ n https://d30y9cdsu7xlg0.cloudfront.net/png/54657-200.png \ n https://cdn3.iconfinder.com/data/icons/car-icons-front -Vistas / 480 / Sports_Car_Front_View-512.png \ n https://cdn4.iconfinder.com/data/icons/standard-free-icons/139/Trash01-128.png \ n https://cdn0.iconfinder.com /data/icons/typicons-2/24/arrow-back-512.png \ n https://cdn2.iconfinder.com/data/icons/ios-tab-bar/25/Check_Circle-128.png \ n https : //cdn2.iconfinder.com/data/icons/ios-tab-bar/25/Cross_Cricle-128.png \ n http://a3disenadora.site88.net/images/01.jpg \ n https: // CDN2 .iconfinder.com / datos / iconos / bitsies / 128 / Info-128.png \ n http://www.iconsplace.com/download/black-car-256.png \ n http://www.iconsdb.com /icons/preview/deep-pink/car-xxl.png \ N http://www.iconsdb.com/icons/preview/brown/car-xxl.png \ n http://www.iconsdb.com/icons/preview/soylent-red/car-xxl.png \ n https://github.com/facebook/shimmer-android \ n https://github.com/google/gson \ n"</string>
+    <string name="car_type">"Coche"</string>
+    <string name="add_bill_title">"Añadir Bill"</string>
+    <string name="car_type1">"Coche"</string>
+    <string name="delete_menu">"Borrar"</string>
+    <string name="exit_menu">"Salir"</string>
+    <string name="setting">"Ajuste"</string>
+    <string name="about">"Acerca de"</string>
+    <string name="monthly_utility_menu">"mensual de servicios"</string>
+    <string name="display_footprint_menu">"Huella pantalla"</string>
+    <string name="create_journey_list">"Crear lista de Viaje"</string>
+    <string name="edit3">"Editar"</string>
+    <string name="dsiplay_by_route">"Dsiplay por la Ruta"</string>
+    <string name="back">"Atrás"</string>
+    <string name="display_by_mode">"Pantalla de modo de"</string>
+    <string name="add_bike_title">"Añadir bicicletas"</string>
+    <string name="add_bus_menu">"Añadir autobús"</string>
+    <string name="add_car_title">"Añadir coches"</string>
+    <string name="add_route_title">"Añadir ruta"</string>
+    <string name="add_skytrain_title">"Añadir Skytrain"</string>
+    <string name="carbon">"Carbón"</string>
+    <string name="delete_journey">"Borrar"</string>
+    <string name="title_skytrain_list">"Lista de tren aéreo"</string>
+    <string name="total_distance_cannot_be_0">"La distancia total no puede ser 0"</string>
+    <string name="carbon_calculator">\Calculadora de carbono\</string>
+    <string name="carbon_calculator2">\"Calculadora de carbono\"</string>
+    <string name="carbon_calculator_nava">\"Calculadora de carbono\"</string>
+
+</resources>

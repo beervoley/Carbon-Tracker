@@ -1,0 +1,13 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">#20a771</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarStyle">@menu/action_bar</item>
+    </style>
+    <style name="date_picker_theme" parent="@android:style/Widget.DatePicker">
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+</resources>

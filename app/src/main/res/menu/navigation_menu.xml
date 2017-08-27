@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/nav_journey_list"
+        android:icon="@mipmap/journey"
+        android:checkable="true"
+        android:title="@string/create_journey_list"/>
+
+    <item android:id="@+id/nav_display_footprint"
+        android:icon="@mipmap/pie"
+        android:checkable="true"
+        android:title="@string/display_footprint_menu"/>
+
+    <item android:id="@+id/nav_monthly_utility"
+        android:icon="@mipmap/gas"
+        android:checkable="true"
+        android:title="@string/monthly_utility_menu"/>
+
+    <item android:id="@+id/nav_about"
+        android:icon="@mipmap/help2"
+        android:checkable="true"
+        android:title="@string/about"/>
+
+    </group>
+
+    <item android:title="@string/setting">
+    <menu>
+        <item
+            android:id = "@+id/exit1"
+            android:icon="@mipmap/exit"
+            android:title = "@string/exit_menu"/>
+    </menu>
+    </item>
+
+</menu>
